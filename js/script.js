@@ -145,7 +145,7 @@ submit.addEventListener('click', function (e) {
   let myMail = document.querySelector('#name').value;
   let popup1 = document.querySelector('.popup');
   let popup2 = document.querySelector('.popup2');
-  if (myMail !== '' && myPhone !== '' && !isNaN(myPhone)) {
+  if (myPhone !== '' && myMail !== '') {
     popup1.classList.remove('open');
     popup2.classList.add('open');
     e.preventDefault();
